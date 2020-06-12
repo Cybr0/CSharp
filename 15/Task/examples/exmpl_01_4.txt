@@ -1,0 +1,26 @@
+
+        // Регистрируем делегат
+        public void RegisterHandler(AccountStateHandler _del)
+        {
+            //del = _del;
+
+
+            //Combine объединяет делегаты _del и del в один
+            Delegate mainDel = System.Delegate.Combine(_del, del);
+
+            //ЧТО ЭТО ЗА КОНСТРУКЦИЯ?
+            del = mainDel as AccountStateHandler;
+		
+	   //сокращенную форму добавления
+           //del += _del; // добавляем делегат
+        }
+
+        public void UnregisterHandler(AccountStateHandler _del)
+        {
+            //метод Remove возвращает делегат, из списка вызовов которого удален делегат _del
+            Delegate mainDel = System.Delegate.Remove(del, _del);
+            del = mainDel as AccountStateHandler;
+
+	   //сокращенную форму удаления
+	   //del -= _del; // удаляем делегат
+        }

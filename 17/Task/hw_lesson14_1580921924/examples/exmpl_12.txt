@@ -1,0 +1,151 @@
+
+    class Letter
+    {
+        char ch = 'А';
+        int end;
+
+        public Letter(int end)
+        {
+            this.end = end;
+        }
+
+        // Итератор, возвращающий end-букв
+        public IEnumerator GetEnumerator()
+        {
+            for (int i = 0; i < this.end; i++)
+            {
+                if (i == 33) yield break; // Выход из итератора, если закончится алфавит
+                yield return (char)(ch + i);
+            }
+        }
+
+        // Создание именованного итератора
+        public IEnumerable MyItr(int begin, int end)
+        {
+            for (int i = begin; i <= end; i++)
+            {
+                yield return (char)(ch + i);
+            }
+        }
+    }
+
+
+    class Book
+    {
+        public Book(string name)
+        {
+            this.Name = name;
+        }
+        public string Name { get; set; }
+    }
+    class Library : IEnumerable
+    {
+        private Book[] books;
+
+        public Library()
+        {
+            books = new Book[] { new Book("Отцы и дети"), new Book("Война и мир"), new Book("Евгений Онегин") };
+        }
+
+        public int Length
+        {
+            get { return books.Length; }
+        }
+
+        public Book this[int index]
+        {
+            get
+            {
+                return books[index];
+            }
+            set
+            {
+                books[index] = value;
+            }
+        }
+
+        public IEnumerable GetBooks(int max)
+        {
+            for (int i = 0; i < max; i++)
+            {
+                if (i == books.Length)
+                {
+                    yield break;
+                }
+                else
+                {
+                    yield return books[i];
+                }
+            }
+        }
+
+        // возвращаем перечислитель
+        //IEnumerator IEnumerable.GetEnumerator()
+        //{
+        //    for (int i = 0; i < books.Length; i++)
+        //    {
+        //        yield return books[i];
+        //    }
+        //}
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            yield return books[0];
+            yield return books[1];
+            yield return books[2];
+        }
+    }
+   
+
+
+    class Program
+    {
+       
+
+
+        static void Main()
+        {
+
+
+            //Console.Write("Сколько букв вывести? ");
+            //int i = int.Parse(Console.ReadLine());
+
+            //Letter lt = new Letter(i);
+            //Console.WriteLine("\nРезультат: \n");
+
+            //foreach (char c in lt)
+            //    Console.Write(c + " ");
+
+            //Console.Write("\nВведите пределы\n\nMin: ");
+            //int j = int.Parse(Console.ReadLine());
+            //Console.Write("Max: ");
+            //int y = int.Parse(Console.ReadLine());
+            //Console.WriteLine("\nРезультат: \n");
+
+            //foreach (char c in lt.MyItr(j, y))
+            //    Console.Write(c + " ");
+
+
+            //-----------------------------------------
+
+            Library library = new Library();
+
+
+
+            //foreach (Book b in library)
+            //{
+            //    Console.WriteLine(b.Name);
+            //}
+
+            //Именованный итератор
+            foreach (Book b in library.GetBooks(5))
+            {
+                Console.WriteLine(b.Name);
+            }
+            Console.ReadLine();
+
+
+
+            Console.ReadLine();
+        }
+    }

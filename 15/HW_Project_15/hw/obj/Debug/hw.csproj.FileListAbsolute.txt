@@ -1,0 +1,12 @@
+C:\codeWar\C#\15\hw\hw\hw\bin\Debug\hw.exe.config
+C:\codeWar\C#\15\hw\hw\hw\bin\Debug\hw.exe
+C:\codeWar\C#\15\hw\hw\hw\bin\Debug\hw.pdb
+C:\codeWar\C#\15\hw\hw\hw\obj\Debug\hw.csprojAssemblyReference.cache
+C:\codeWar\C#\15\hw\hw\hw\obj\Debug\hw.exe
+C:\codeWar\C#\15\hw\hw\hw\obj\Debug\hw.pdb
+C:\codeWar\C#\15\hw\hw\bin\Debug\hw.exe.config
+C:\codeWar\C#\15\hw\hw\bin\Debug\hw.exe
+C:\codeWar\C#\15\hw\hw\bin\Debug\hw.pdb
+C:\codeWar\C#\15\hw\hw\obj\Debug\hw.csprojAssemblyReference.cache
+C:\codeWar\C#\15\hw\hw\obj\Debug\hw.exe
+C:\codeWar\C#\15\hw\hw\obj\Debug\hw.pdb

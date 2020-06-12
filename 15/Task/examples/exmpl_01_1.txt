@@ -1,0 +1,28 @@
+delegate int Operation(int x, int y);
+     
+    static void Main(string[] args)
+    {
+        // присваивание адреса метода через контруктор
+        Operation del = new Operation(Add); // делегат указывает на метод Add
+        int result = del.Invoke(4,5);
+        Console.WriteLine(result);
+ 
+        del = Multiply; // теперь делегат указывает на метод Multiply
+        result = del.Invoke(4, 5);
+        Console.WriteLine(result);
+ 
+	//Метод Invoke() при вызове делегата можно опустить и использовать сокращенную форму:
+	del = Multiply; // теперь делегат указывает на метод Multiply
+	result = del(4, 5);
+
+
+        Console.Read();
+    }
+    private static int Add(int x, int y)
+    {
+        return x+y;
+    }
+    private static int Multiply (int x, int y)
+    {
+        return x * y;
+    }

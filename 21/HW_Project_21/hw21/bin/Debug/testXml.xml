@@ -1,0 +1,21 @@
+<Library>
+  <Name>LIB</Name>
+  <FoundDate>01.01.2020 0:00:00</FoundDate>
+  <Books>
+    <book id="1">
+      <Name>C++</Name>
+      <Author>Straustrup</Author>
+      <Publisher>press</Publisher>
+    </book>
+    <book id="2">
+      <Name>C#</Name>
+      <Author>Tim</Author>
+      <Publisher>press</Publisher>
+    </book>
+    <book id="3">
+      <Name>Java</Name>
+      <Author>Timur</Author>
+      <Publisher>Tashkent</Publisher>
+    </book>
+  </Books>
+</Library>

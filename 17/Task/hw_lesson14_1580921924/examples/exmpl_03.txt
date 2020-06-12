@@ -1,0 +1,11 @@
+int x = 44;
+string s = "hello";
+ 
+List<int> array = new List<int>();
+             
+array.Add(x);
+// Распаковка уже не нужна 
+int y = array[0];
+ 
+// здесь будет ошибка компиляции, так как можно добавлять только объекты int
+array.Add(s);

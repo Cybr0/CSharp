@@ -1,0 +1,7 @@
+D:\projects\csharp\lesson08\Lesson08\Lesson08\bin\Debug\Lesson08.exe.config
+D:\projects\csharp\lesson08\Lesson08\Lesson08\bin\Debug\Lesson08.exe
+D:\projects\csharp\lesson08\Lesson08\Lesson08\bin\Debug\Lesson08.pdb
+D:\projects\csharp\lesson08\Lesson08\Lesson08\obj\Debug\Lesson08.csprojAssemblyReference.cache
+D:\projects\csharp\lesson08\Lesson08\Lesson08\obj\Debug\Lesson08.csproj.CoreCompileInputs.cache
+D:\projects\csharp\lesson08\Lesson08\Lesson08\obj\Debug\Lesson08.exe
+D:\projects\csharp\lesson08\Lesson08\Lesson08\obj\Debug\Lesson08.pdb

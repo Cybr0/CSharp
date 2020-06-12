@@ -1,0 +1,6 @@
+C:\codeWar\C#\_project\ado_1\ado_1\bin\Debug\ado_1.exe.config
+C:\codeWar\C#\_project\ado_1\ado_1\bin\Debug\ado_1.exe
+C:\codeWar\C#\_project\ado_1\ado_1\bin\Debug\ado_1.pdb
+C:\codeWar\C#\_project\ado_1\ado_1\obj\Debug\ado_1.csprojAssemblyReference.cache
+C:\codeWar\C#\_project\ado_1\ado_1\obj\Debug\ado_1.exe
+C:\codeWar\C#\_project\ado_1\ado_1\obj\Debug\ado_1.pdb

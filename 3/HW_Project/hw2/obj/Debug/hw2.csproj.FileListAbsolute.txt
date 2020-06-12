@@ -1,0 +1,6 @@
+C:\CODE_COURSE\C#\3\hw2\bin\Debug\hw2.exe.config
+C:\CODE_COURSE\C#\3\hw2\bin\Debug\hw2.exe
+C:\CODE_COURSE\C#\3\hw2\bin\Debug\hw2.pdb
+C:\CODE_COURSE\C#\3\hw2\obj\Debug\hw2.csprojAssemblyReference.cache
+C:\CODE_COURSE\C#\3\hw2\obj\Debug\hw2.exe
+C:\CODE_COURSE\C#\3\hw2\obj\Debug\hw2.pdb

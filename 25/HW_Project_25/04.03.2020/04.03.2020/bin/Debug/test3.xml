@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <books>
+    <anyType xsi:type="Book">
+      <id>1</id>
+      <name>New book</name>
+      <publisher>Press</publisher>
+      <author>Writer</author>
+      <pages>300</pages>
+    </anyType>
+    <anyType xsi:type="Book">
+      <id>2</id>
+      <name>book 2</name>
+      <publisher>Press 2</publisher>
+      <author>Writer 2</author>
+      <pages>100</pages>
+    </anyType>
+    <anyType xsi:type="Book">
+      <id>3</id>
+      <name>book 3</name>
+      <publisher>Press 3</publisher>
+      <author>Writer 3</author>
+      <pages>100</pages>
+    </anyType>
+  </books>
+</Library>

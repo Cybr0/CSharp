@@ -1,0 +1,11 @@
+C:\CODE_COURSE\C#\5\hw3\bin\Debug\netcoreapp3.1\hw3.exe
+C:\CODE_COURSE\C#\5\hw3\bin\Debug\netcoreapp3.1\hw3.deps.json
+C:\CODE_COURSE\C#\5\hw3\bin\Debug\netcoreapp3.1\hw3.runtimeconfig.json
+C:\CODE_COURSE\C#\5\hw3\bin\Debug\netcoreapp3.1\hw3.runtimeconfig.dev.json
+C:\CODE_COURSE\C#\5\hw3\bin\Debug\netcoreapp3.1\hw3.dll
+C:\CODE_COURSE\C#\5\hw3\bin\Debug\netcoreapp3.1\hw3.pdb
+C:\CODE_COURSE\C#\5\hw3\obj\Debug\netcoreapp3.1\hw3.csprojAssemblyReference.cache
+C:\CODE_COURSE\C#\5\hw3\obj\Debug\netcoreapp3.1\hw3.AssemblyInfoInputs.cache
+C:\CODE_COURSE\C#\5\hw3\obj\Debug\netcoreapp3.1\hw3.AssemblyInfo.cs
+C:\CODE_COURSE\C#\5\hw3\obj\Debug\netcoreapp3.1\hw3.dll
+C:\CODE_COURSE\C#\5\hw3\obj\Debug\netcoreapp3.1\hw3.pdb

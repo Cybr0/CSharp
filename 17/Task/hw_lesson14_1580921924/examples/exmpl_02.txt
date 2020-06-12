@@ -1,0 +1,10 @@
+int x = 44;
+  
+System.Collections.ArrayList array = new System.Collections.ArrayList();
+// Упаковка значения x в тип Object
+array.Add(x);
+string s = "hello";
+// Добавление s в коллекцию ArrayList
+array.Add(s);
+// по индексу 1 в коллекции array строка s
+int y = (int)array[1];

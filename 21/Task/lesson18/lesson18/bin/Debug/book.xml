@@ -1,0 +1,7 @@
+<books>
+  <book id="1">
+    <name>C++</name>
+    <autor>Straustrup</autor>
+    <publisher>press</publisher>
+  </book>
+</books>

@@ -1,0 +1,40 @@
+   delegate int LengthLogin(string s);
+        delegate bool BoolPassword(string s1, string s2);
+
+        private static void SetLogin()
+        {
+            Console.Write("Введите логин: ");
+            string login = Console.ReadLine();
+
+            // Используем лямбда-выражение
+            LengthLogin lengthLoginDelegate = s => s.Length;
+
+            int lengthLogin = lengthLoginDelegate(login);
+            if (lengthLogin > 25)
+            {
+                Console.WriteLine("Слишком длинное имя\n");
+
+                // Рекурсия на этот же метод, чтобы ввести заново логин
+                SetLogin();
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            SetLogin();
+
+            Console.Write("Введите пароль: ");
+            string password1 = Console.ReadLine();
+            Console.Write("Повторите пароль: ");
+            string password2 = Console.ReadLine();
+
+            // Используем лямбда выражение
+            BoolPassword bp = (s1, s2) => s1 == s2;
+
+            if (bp(password1, password2))
+                Console.WriteLine("Регистрация удалась!");
+            else
+                Console.WriteLine("Регистрация провалилась. Пароли не совпадают");
+
+            Console.ReadLine();
+        }

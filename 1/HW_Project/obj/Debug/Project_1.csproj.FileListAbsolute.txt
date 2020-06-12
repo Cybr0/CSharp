@@ -1,0 +1,6 @@
+C:\CODE_COURSE\C#\1\Project_1\bin\Debug\Project_1.exe.config
+C:\CODE_COURSE\C#\1\Project_1\bin\Debug\Project_1.exe
+C:\CODE_COURSE\C#\1\Project_1\bin\Debug\Project_1.pdb
+C:\CODE_COURSE\C#\1\Project_1\obj\Debug\Project_1.csprojAssemblyReference.cache
+C:\CODE_COURSE\C#\1\Project_1\obj\Debug\Project_1.exe
+C:\CODE_COURSE\C#\1\Project_1\obj\Debug\Project_1.pdb

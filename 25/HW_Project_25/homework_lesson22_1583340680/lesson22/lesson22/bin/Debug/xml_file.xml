@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<BakerBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>New book</name>
+  <publisher>Press</publisher>
+  <pages>300</pages>
+  <autor>Writer</autor>
+  <taked_count>30</taked_count>
+  <recepies_count>100</recepies_count>
+</BakerBook>

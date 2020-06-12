@@ -1,0 +1,17 @@
+   public class StaticDemo<T>
+    {
+        public static int x;
+    }
+    class Program
+    {
+        static void Main()
+        {
+
+            StaticDemo<string>.x = 4;
+            StaticDemo<int>.x = 5;
+            Console.WriteLine(StaticDemo<string>.x); // записывает 4
+            Console.WriteLine(StaticDemo<int>.x); // записывает 5
+
+            Console.ReadLine();
+        }
+    }

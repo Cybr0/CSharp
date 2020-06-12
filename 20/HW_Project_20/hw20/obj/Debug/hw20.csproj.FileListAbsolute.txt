@@ -1,0 +1,6 @@
+C:\codeWar\C#\20\hw20\hw20\bin\Debug\hw20.exe.config
+C:\codeWar\C#\20\hw20\hw20\bin\Debug\hw20.exe
+C:\codeWar\C#\20\hw20\hw20\bin\Debug\hw20.pdb
+C:\codeWar\C#\20\hw20\hw20\obj\Debug\hw20.csprojAssemblyReference.cache
+C:\codeWar\C#\20\hw20\hw20\obj\Debug\hw20.exe
+C:\codeWar\C#\20\hw20\hw20\obj\Debug\hw20.pdb

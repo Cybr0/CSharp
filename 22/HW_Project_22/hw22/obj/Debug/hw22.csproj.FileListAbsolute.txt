@@ -1,0 +1,6 @@
+C:\codeWar\C#\22\hw22\hw22\bin\Debug\hw22.exe.config
+C:\codeWar\C#\22\hw22\hw22\bin\Debug\hw22.exe
+C:\codeWar\C#\22\hw22\hw22\bin\Debug\hw22.pdb
+C:\codeWar\C#\22\hw22\hw22\obj\Debug\hw22.csprojAssemblyReference.cache
+C:\codeWar\C#\22\hw22\hw22\obj\Debug\hw22.exe
+C:\codeWar\C#\22\hw22\hw22\obj\Debug\hw22.pdb

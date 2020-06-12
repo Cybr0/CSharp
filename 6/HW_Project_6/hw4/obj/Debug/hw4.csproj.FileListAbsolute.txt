@@ -1,0 +1,12 @@
+C:\CODE_COURSE\C#\6\HW5\hw4\bin\Debug\hw4.exe.config
+C:\CODE_COURSE\C#\6\HW5\hw4\bin\Debug\hw4.exe
+C:\CODE_COURSE\C#\6\HW5\hw4\bin\Debug\hw4.pdb
+C:\CODE_COURSE\C#\6\HW5\hw4\obj\Debug\hw4.csprojAssemblyReference.cache
+C:\CODE_COURSE\C#\6\HW5\hw4\obj\Debug\hw4.exe
+C:\CODE_COURSE\C#\6\HW5\hw4\obj\Debug\hw4.pdb
+C:\CODE_COURSE\C#\6\HW6\hw4\bin\Debug\hw4.exe.config
+C:\CODE_COURSE\C#\6\HW6\hw4\bin\Debug\hw4.exe
+C:\CODE_COURSE\C#\6\HW6\hw4\bin\Debug\hw4.pdb
+C:\CODE_COURSE\C#\6\HW6\hw4\obj\Debug\hw4.csprojAssemblyReference.cache
+C:\CODE_COURSE\C#\6\HW6\hw4\obj\Debug\hw4.exe
+C:\CODE_COURSE\C#\6\HW6\hw4\obj\Debug\hw4.pdb

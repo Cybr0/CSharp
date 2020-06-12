@@ -1,0 +1,50 @@
+ // Объявляем обобщенный интерфейс
+    public interface ISort<T> where T : struct
+    {
+        void ReWrite();
+    }
+
+    // Реализуем интерфейс в классе MyObj
+    class MyObj<T> : ISort<T> where T : struct
+    {
+        public int longOb { get; set; }
+        T[] myarr;
+
+        public MyObj(int i)
+        {
+            longOb = i;
+        }
+
+        public MyObj(int i, T[] arr)
+        {
+            longOb = i;
+            myarr = new T[i];
+            for (int j = 0; j < arr.Length; j++)
+                myarr[j] = arr[j];
+        }
+
+        public void ReWrite()
+        {
+            Console.WriteLine("Тип: {0}", typeof(T));
+            Console.WriteLine("Массив объектов: ");
+            foreach (T t in myarr)
+                Console.Write("{0}\t", t);
+            Console.WriteLine("\n");
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            byte[] MyArrByte = new byte[5] { 4, 5, 18, 56, 8 };
+            MyObj<byte> ByteConst = new MyObj<byte>(MyArrByte.Length, MyArrByte);
+            ByteConst.ReWrite();
+
+            float[] MyArrFloat = new float[8] { 12.0f, 1f, 3.4f, 2.8f, -334.7f, -2f, 7.89f, 0 };
+            MyObj<float> FloatConst = new MyObj<float>(MyArrFloat.Length, MyArrFloat);
+            FloatConst.ReWrite();
+
+            Console.ReadLine();
+        }
+    }

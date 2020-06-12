@@ -1,0 +1,94 @@
+class Program
+{
+    delegate int Square(int x); // объявляем делегат, принимающий int и возвращающий int
+    static void Main(string[] args)
+    {
+        Square squareInt = i => i * i; // объекту делегата присваивается лямбда-выражение
+ 
+        int z = squareInt(6); // используем делегат
+        Console.WriteLine(z); // выводит число 36
+        Console.Read();
+    }
+}
+
+
+//ПРИМЕР 2
+
+Account account = new Account(200, 6);
+ 
+account.Added += (sender, e)=>
+{
+    Console.WriteLine("Сумма транзакции: {0}", e.sum);
+    Console.WriteLine(e.message);
+};
+
+
+
+class Program
+{
+    delegate void message(); // делегат без параметров
+    static void Main(string[] args)
+    {
+        message GetMessage = () => { Console.WriteLine("Лямбда-выражение"); };
+ 
+        GetMessage();
+         
+        Console.Read();
+    }
+}
+
+
+
+//Также лямбда-выражение необязательно должно принимать блок операторов и выражений. Оно может также принимать ссылку на метод
+
+class Program
+{
+    delegate void message(); // делегат без параметров
+    static void Main(string[] args)
+    {
+        message GetMessage = () => Show_Message();
+ 
+        GetMessage();
+    }
+    private static void Show_Message()
+    {
+        Console.WriteLine("Привет мир!");
+    }
+}
+
+
+
+
+
+//Как и делегаты, лямбда-выражения можно передавать в качестве параметров методу. Нередко лямбды в качестве параметров и используются, что довольно удобно
+
+class Program  
+{
+    delegate bool IsEqual(int x);
+     
+    static void Main(string[] args)
+    {
+        int[] integers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+         
+        // найдем сумму чисел больше 5
+        int result1 = Sum(integers, x => x > 5);
+        Console.WriteLine(result1); // 30
+         
+        // найдем сумму четных чисел
+        int result2 = Sum(integers, x => x % 2 == 0);
+        Console.WriteLine(result2);  //20
+         
+        Console.Read();
+    }
+ 
+    private static int Sum (int[] numbers, IsEqual func)
+    {
+        int result = 0;
+        foreach(int i in numbers)
+        {
+            if (func(i))
+                result += i;
+        }
+        return result;
+    }
+}

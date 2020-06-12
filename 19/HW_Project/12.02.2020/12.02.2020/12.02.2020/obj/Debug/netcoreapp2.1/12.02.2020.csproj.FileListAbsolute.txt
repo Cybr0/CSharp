@@ -1,0 +1,11 @@
+D:\CodeWar\12.02.2020\12.02.2020\bin\Debug\netcoreapp2.1\12.02.2020.deps.json
+D:\CodeWar\12.02.2020\12.02.2020\bin\Debug\netcoreapp2.1\12.02.2020.runtimeconfig.json
+D:\CodeWar\12.02.2020\12.02.2020\bin\Debug\netcoreapp2.1\12.02.2020.runtimeconfig.dev.json
+D:\CodeWar\12.02.2020\12.02.2020\bin\Debug\netcoreapp2.1\12.02.2020.dll
+D:\CodeWar\12.02.2020\12.02.2020\bin\Debug\netcoreapp2.1\12.02.2020.pdb
+D:\CodeWar\12.02.2020\12.02.2020\obj\Debug\netcoreapp2.1\12.02.2020.csprojAssemblyReference.cache
+D:\CodeWar\12.02.2020\12.02.2020\obj\Debug\netcoreapp2.1\12.02.2020.csproj.CoreCompileInputs.cache
+D:\CodeWar\12.02.2020\12.02.2020\obj\Debug\netcoreapp2.1\12.02.2020.AssemblyInfoInputs.cache
+D:\CodeWar\12.02.2020\12.02.2020\obj\Debug\netcoreapp2.1\12.02.2020.AssemblyInfo.cs
+D:\CodeWar\12.02.2020\12.02.2020\obj\Debug\netcoreapp2.1\12.02.2020.dll
+D:\CodeWar\12.02.2020\12.02.2020\obj\Debug\netcoreapp2.1\12.02.2020.pdb

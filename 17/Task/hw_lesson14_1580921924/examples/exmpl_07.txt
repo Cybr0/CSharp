@@ -1,0 +1,22 @@
+  class ObEx<T>
+    {
+        // Используем оператор default
+        public T obj = default(T);
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            ObEx<Program> a = new ObEx<Program>();
+            ObEx<int> b = new ObEx<int>();
+
+            if (a.obj == null)
+                Console.WriteLine("a.obj = null");
+
+            if (b.obj == 0)
+                Console.WriteLine("b.obj = 0");
+
+            Console.ReadLine();
+        }
+    }

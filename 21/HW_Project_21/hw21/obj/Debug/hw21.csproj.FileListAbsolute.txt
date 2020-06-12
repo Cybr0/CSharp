@@ -1,0 +1,6 @@
+C:\codeWar\C#\21\hw21\hw21\bin\Debug\hw21.exe.config
+C:\codeWar\C#\21\hw21\hw21\bin\Debug\hw21.exe
+C:\codeWar\C#\21\hw21\hw21\bin\Debug\hw21.pdb
+C:\codeWar\C#\21\hw21\hw21\obj\Debug\hw21.csprojAssemblyReference.cache
+C:\codeWar\C#\21\hw21\hw21\obj\Debug\hw21.exe
+C:\codeWar\C#\21\hw21\hw21\obj\Debug\hw21.pdb

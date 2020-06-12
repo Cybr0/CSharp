@@ -1,0 +1,34 @@
+
+    struct UI
+    {
+        public UI(string Name, int Age)
+        {
+            this.Name = Name;
+            this.Age = Age;
+        }
+
+        public string Name;
+        public int Age;
+    }
+
+    // ќбобщенный класс, использующий ограничение на тип значени€
+    class UserInfo<T> where T : struct
+    {
+        T obj;
+
+        public UserInfo(T ob)
+        {
+            obj = ob;
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            UI user1 = new UI(Name: "Alexandr", Age: 26);
+            UserInfo<UI> user = new UserInfo<UI>(user1);
+            //¬ данном примере объ€вл€етс€ ограничение на типы значений, поэтому в экземпл€рах обобщенного класса UserInfo
+            //нельз€ оперировать ссылочными типами, например другим классом или интерфейсом.
+        }
+    }

@@ -1,0 +1,6 @@
+C:\codeWar\C#\24\hw24\hw24\bin\Debug\hw24.exe.config
+C:\codeWar\C#\24\hw24\hw24\bin\Debug\hw24.exe
+C:\codeWar\C#\24\hw24\hw24\bin\Debug\hw24.pdb
+C:\codeWar\C#\24\hw24\hw24\obj\Debug\hw24.csprojAssemblyReference.cache
+C:\codeWar\C#\24\hw24\hw24\obj\Debug\hw24.exe
+C:\codeWar\C#\24\hw24\hw24\obj\Debug\hw24.pdb

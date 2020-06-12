@@ -1,0 +1,7 @@
+D:\projects\csharp\lesson12\lesson12\lesson12\bin\Debug\lesson12.exe.config
+D:\projects\csharp\lesson12\lesson12\lesson12\bin\Debug\lesson12.exe
+D:\projects\csharp\lesson12\lesson12\lesson12\bin\Debug\lesson12.pdb
+D:\projects\csharp\lesson12\lesson12\lesson12\obj\Debug\lesson12.csprojAssemblyReference.cache
+D:\projects\csharp\lesson12\lesson12\lesson12\obj\Debug\lesson12.csproj.CoreCompileInputs.cache
+D:\projects\csharp\lesson12\lesson12\lesson12\obj\Debug\lesson12.exe
+D:\projects\csharp\lesson12\lesson12\lesson12\obj\Debug\lesson12.pdb

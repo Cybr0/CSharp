@@ -1,0 +1,38 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:Library id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/_04._03._2020/04.03.2020%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<books href="#ref-3"/>
+</a1:Library>
+<a2:ArrayList id="ref-3" xmlns:a2="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-4"/>
+<_size>3</_size>
+<_version>3</_version>
+</a2:ArrayList>
+<SOAP-ENC:Array id="ref-4" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+<item href="#ref-7"/>
+</SOAP-ENC:Array>
+<a1:Book id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/_04._03._2020/04.03.2020%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<id>1</id>
+<name id="ref-8">New book</name>
+<publisher id="ref-9">Press</publisher>
+<author id="ref-10">Writer</author>
+<pages>300</pages>
+</a1:Book>
+<a1:Book id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/_04._03._2020/04.03.2020%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<id>2</id>
+<name id="ref-11">book 2</name>
+<publisher id="ref-12">Press 2</publisher>
+<author id="ref-13">Writer 2</author>
+<pages>100</pages>
+</a1:Book>
+<a1:Book id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/_04._03._2020/04.03.2020%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<id>3</id>
+<name id="ref-14">book 3</name>
+<publisher id="ref-15">Press 3</publisher>
+<author id="ref-16">Writer 3</author>
+<pages>100</pages>
+</a1:Book>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,15 @@
+C:\CODE_COURSE\C#\6\ClassLibrary1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\CODE_COURSE\C#\6\ClassLibrary1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\CODE_COURSE\C#\6\ClassLibrary1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\CODE_COURSE\C#\6\ClassLibrary1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\CODE_COURSE\C#\6\ClassLibrary1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\CODE_COURSE\C#\6\ClassLibrary1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\CODE_COURSE\C#\6\HW5\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\CODE_COURSE\C#\6\HW5\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\CODE_COURSE\C#\6\HW5\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\CODE_COURSE\C#\6\HW5\ConsoleApp1\bin\Debug\ClassLibrary1.dll
+C:\CODE_COURSE\C#\6\HW5\ConsoleApp1\bin\Debug\ClassLibrary1.pdb
+C:\CODE_COURSE\C#\6\HW5\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\CODE_COURSE\C#\6\HW5\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\CODE_COURSE\C#\6\HW5\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\CODE_COURSE\C#\6\HW5\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

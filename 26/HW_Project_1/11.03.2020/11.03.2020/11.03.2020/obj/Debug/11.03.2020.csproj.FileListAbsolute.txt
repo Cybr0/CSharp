@@ -1,0 +1,13 @@
+D:\CodeWar\11.03.2020\11.03.2020\11.03.2020\obj\Debug\11.03.2020.csprojAssemblyReference.cache
+D:\CodeWar\11.03.2020\11.03.2020\11.03.2020\obj\Debug\11.03.2020.csproj.CoreCompileInputs.cache
+D:\CodeWar\11.03.2020\11.03.2020\11.03.2020\bin\Debug\11.03.2020.exe.config
+D:\CodeWar\11.03.2020\11.03.2020\11.03.2020\bin\Debug\11.03.2020.exe
+D:\CodeWar\11.03.2020\11.03.2020\11.03.2020\bin\Debug\11.03.2020.pdb
+D:\CodeWar\11.03.2020\11.03.2020\11.03.2020\obj\Debug\11.03.2020.exe
+D:\CodeWar\11.03.2020\11.03.2020\11.03.2020\obj\Debug\11.03.2020.pdb
+C:\codeWar\C#\26\11.03.2020\11.03.2020\11.03.2020\bin\Debug\11.03.2020.exe.config
+C:\codeWar\C#\26\11.03.2020\11.03.2020\11.03.2020\bin\Debug\11.03.2020.exe
+C:\codeWar\C#\26\11.03.2020\11.03.2020\11.03.2020\bin\Debug\11.03.2020.pdb
+C:\codeWar\C#\26\11.03.2020\11.03.2020\11.03.2020\obj\Debug\11.03.2020.csprojAssemblyReference.cache
+C:\codeWar\C#\26\11.03.2020\11.03.2020\11.03.2020\obj\Debug\11.03.2020.exe
+C:\codeWar\C#\26\11.03.2020\11.03.2020\11.03.2020\obj\Debug\11.03.2020.pdb

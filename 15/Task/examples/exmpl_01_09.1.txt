@@ -1,0 +1,12 @@
+delegate void GetMessage();
+
+static void Main(string[] args) 
+{
+    GetMessage message = delegate
+    {
+        Console.WriteLine("анонимный делегат");
+    };
+    message();
+     
+    Console.Read();
+}

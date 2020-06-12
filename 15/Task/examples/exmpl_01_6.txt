@@ -1,0 +1,34 @@
+ delegate int IntOperation(int i, int j);
+
+        static void Main(string[] args)
+        {
+
+            // Присваиваем имя метода обычным способом
+            IntOperation op1 = new IntOperation(Sum);
+            // Используем групповое преобразование
+            op1 = Sum;
+
+            int result = op1(5, 10);
+            Console.WriteLine("Сумма: " + result);
+
+            // Изменим ссылку на метод
+            op1 = Prz;
+            result = op1(5, 10);
+            Console.WriteLine("Произведение: " + result);
+
+            Console.ReadLine();
+        }
+
+        static int Sum(int x, int y)
+        {
+            return x + y;
+        }
+        static int Prz(int x, int y)
+        {
+            return x * y;
+        }
+
+        static int Del(int x, int y)
+        {
+            return x / y;
+        }

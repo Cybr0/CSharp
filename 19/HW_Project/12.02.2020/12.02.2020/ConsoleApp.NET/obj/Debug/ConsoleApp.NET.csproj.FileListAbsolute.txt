@@ -1,0 +1,7 @@
+D:\CodeWar\12.02.2020\ConsoleApp.NET\bin\Debug\ConsoleApp.NET.exe.config
+D:\CodeWar\12.02.2020\ConsoleApp.NET\bin\Debug\ConsoleApp.NET.exe
+D:\CodeWar\12.02.2020\ConsoleApp.NET\bin\Debug\ConsoleApp.NET.pdb
+D:\CodeWar\12.02.2020\ConsoleApp.NET\obj\Debug\ConsoleApp.NET.csprojAssemblyReference.cache
+D:\CodeWar\12.02.2020\ConsoleApp.NET\obj\Debug\ConsoleApp.NET.csproj.CoreCompileInputs.cache
+D:\CodeWar\12.02.2020\ConsoleApp.NET\obj\Debug\ConsoleApp.NET.exe
+D:\CodeWar\12.02.2020\ConsoleApp.NET\obj\Debug\ConsoleApp.NET.pdb

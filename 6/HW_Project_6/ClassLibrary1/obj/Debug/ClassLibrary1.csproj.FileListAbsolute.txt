@@ -1,0 +1,10 @@
+C:\CODE_COURSE\C#\6\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\CODE_COURSE\C#\6\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\CODE_COURSE\C#\6\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\CODE_COURSE\C#\6\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\CODE_COURSE\C#\6\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\CODE_COURSE\C#\6\HW5\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\CODE_COURSE\C#\6\HW5\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\CODE_COURSE\C#\6\HW5\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
+C:\CODE_COURSE\C#\6\HW5\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\CODE_COURSE\C#\6\HW5\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

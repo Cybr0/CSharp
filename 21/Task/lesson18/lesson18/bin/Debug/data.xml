@@ -1,0 +1,14 @@
+<company>
+<worker id="123">
+	<name>John Doe</name>
+	<position>Accounter</position>
+	<age>35</age>
+	<salary>1000</salary>
+</worker>
+<worker id="124">
+	<name>Jane Doe</name>
+	<position>Secretary</position>
+	<age>25</age>
+	<salary>2000</salary>
+</worker>
+</company>

@@ -1,0 +1,36 @@
+ public class MyClass
+    {
+        public Dictionary<T, T> M<T>(T[] a)
+        {
+            Dictionary<T, T> dic = new Dictionary<T, T>();
+            foreach (var item in a)
+            {
+                if (dic.ContainsKey(item))
+                {
+                    int t = Convert.ToInt32(dic[item]);
+                    t++;
+                   
+                    dic[item] = (T)Convert.ChangeType(t, typeof(T));
+                }
+                else
+                {
+                    dic.Add(item, (T)Convert.ChangeType(1, typeof(T)));
+                }
+               
+            }
+            return dic;
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string s = "Вот дом, Который построил Джек. А это пшеница, Кото­рая в темном  чулане хранится В доме, Который построил Джек А это веселая птица­ синица, Которая часто вору­ет пшеницу, Которая в темном чулане хранится В доме, Который построил Джек.";
+            s = s.Replace(",", "").Replace(".", "");
+            string[] sArr = s.Split(' ');
+
+            MyClass mc = new MyClass();
+            var dic = mc.M(sArr);
+        }
+    }

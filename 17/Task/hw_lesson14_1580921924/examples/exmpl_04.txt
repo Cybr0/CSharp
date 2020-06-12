@@ -1,0 +1,72 @@
+interface IUserInfo
+    {
+        string Name { get; set; }
+        int Age { get; set; }
+    }
+
+    // Создадим класс, реализующий интерфейс IUserInfo
+    class AllInfoUser : IUserInfo
+    {
+        public AllInfoUser() { }
+        public AllInfoUser(string Family, string uName, int uAge)
+        {
+            this.Family = Family;
+            this.Name = uName;
+            this.Age = uAge;
+        }
+
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Family { get; set; }
+
+        public override string ToString()
+        {
+            string s = String.Format("Информация о пользователе: \n{0} {1} {2}\n",this.Name,Family,this.Age);
+            return s;
+        }
+    }
+
+    // Обобщенный класс использующий ограничение на интерфейс и конструктор
+    class Info<T> where T : IUserInfo, new()
+    {
+        T[] UserList;
+        int i;
+
+        // Следующий код доступен благодаря ограничению на конструктор
+        T obj = new T();
+
+        public Info()
+        {
+            UserList = new T[3];
+            i = 0;
+        }
+
+        public void Add(T obj)
+        {
+            if (i == 3) return;
+            UserList[i] = obj;
+            i++;
+            return;
+        }
+
+        public void ReWrite()
+        {
+            foreach (T t in UserList)
+                Console.WriteLine(t.ToString());
+        }
+    }
+
+    class Program
+    {
+        static void Main()
+        {
+            Info<AllInfoUser> database1 = new Info<AllInfoUser>();
+            database1.Add(new AllInfoUser(uName: "Alex", Family: "Erohin", uAge: 26));
+            database1.Add(new AllInfoUser(uName: "Alexey", Family: "Volkov", uAge: 28));
+            database1.Add(new AllInfoUser(uName: "Dmitryi", Family: "Medvedev", uAge: 50));
+
+            database1.ReWrite();
+
+            Console.ReadLine();
+        }
+    }
